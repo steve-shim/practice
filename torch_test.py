@@ -10,6 +10,6 @@ h_preact = torch.matmul(x, w1) + b1
 h= torch.nn.functional.relu(h_preact)
 y = torch.matmul(h,w2) + b2
 
-print(h_preact) # tensor([ 9,  2, -6]) 선형회귀 출력
-print(h)        # tensor([9, 2, 0]) 은닉층 출력
-print(y)        # tensor([-8, 12]) 출력층 출력
+print(h_preact) # tensor([ 9,  2, -6]) 선형회귀 출력!
+print(h)        # tensor([9, 2, 0]) 은닉층 출력!
+print(y)        # tensor([-8, 12]) 출력층 출력!
